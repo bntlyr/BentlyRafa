@@ -2,8 +2,36 @@ import "./App.css";
 import Header from "./components/header";
 import Project from "./components/project-card";
 import { Projects, Skills } from "./data";
+import { useEffect } from "react";
 
 export default function Home() {
+  // Handle hash navigation on page load
+  useEffect(() => {
+    const handleHashNavigation = () => {
+      const hash = window.location.hash.substring(1); // Remove the #
+      if (hash) {
+        setTimeout(() => {
+          const element = document.getElementById(hash);
+          if (element) {
+            element.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        }, 100); // Small delay to ensure page is rendered
+      }
+    };
+
+    // Handle initial load
+    handleHashNavigation();
+
+    // Handle hash changes (back/forward navigation)
+    window.addEventListener('hashchange', handleHashNavigation);
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashNavigation);
+    };
+  }, []);
   return(
     <>
       {/* Header */}
@@ -104,6 +132,7 @@ export default function Home() {
             {Projects.map((project) => (
               <Project
                 key={project.id}
+                id={project.id}
                 image={project.image}
                 title={project.title}
                 description={project.description}
