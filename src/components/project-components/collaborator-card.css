@@ -1,0 +1,118 @@
+.collaborator-container {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 3px solid #2d3748;
+    box-shadow: 6px 6px 0px #2d3748;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 320px;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+}.collaborator-container:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0px #2d3748;
+}
+
+.collaborator-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2d3748;
+  box-shadow: 4px 4px 0px #2d3748;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.collaborator-container:hover img {
+  transform: scale(1.05);
+}
+
+.collaborator-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+}
+
+.collaborator-info h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.collaborator-info h3 {
+  font-size: 0.95rem;
+  color: #667eea;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.collaborator-info p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #4a5568;
+  margin: 0;
+  margin-top: 0.75rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .collaborator-container {
+    padding: 1.5rem;
+    height: 300px;
+  }
+  
+  .collaborator-container img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .collaborator-info h1 {
+    font-size: 1.2rem;
+  }
+  
+  .collaborator-info h3 {
+    font-size: 0.85rem;
+  }
+  
+  .collaborator-info p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .collaborator-container {
+    padding: 1.25rem;
+    height: 280px;
+  }
+  
+  .collaborator-container img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .collaborator-info h1 {
+    font-size: 1.1rem;
+  }
+  
+  .collaborator-info h3 {
+    font-size: 0.8rem;
+  }
+  
+  .collaborator-info p {
+    font-size: 0.85rem;
+  }
+}
