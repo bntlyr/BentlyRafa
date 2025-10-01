@@ -1,0 +1,63 @@
+.tag {
+    background: #667eea;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 2px solid #2d3748;
+    box-shadow: 4px 4px 0px #2d3748;
+    transition: all 0.2s ease;
+}
+
+.tag:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px #2d3748;
+}
+
+/* Alternative tag colors for variety */
+.tag:nth-child(2n) {
+    background: #f5576c;
+}
+
+.tag:nth-child(3n) {
+    background: #4facfe;
+}
+
+.tag:nth-child(4n) {
+    background: #43e97b;
+}
+
+
+.stat {
+  background: #ffffff;
+  padding: 2rem;
+  border: 3px solid #2d3748;
+  border-radius: 8px;
+  box-shadow: 8px 8px 0px #2d3748;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.stat:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 12px 12px 0px #2d3748;
+}
+
+.stat-number {
+  display: block;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #4a5568;
+}
