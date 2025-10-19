@@ -6,41 +6,13 @@ export const Projects = [
         description: "System for detecting road defects using computer vision and machine learning.",
         tags: ["Python", "AI & Machine Learning", "PyQT", "YoloV10", "Google Cloud"],
         longDescription: "This advanced system leverages computer vision and machine learning to automatically detect and classify road defects. Built with Python and YoloV10, it provides real-time analysis of road conditions to help with infrastructure maintenance.",
-        githubLink: "https://github.com/example/rdis",
+        githubLink: "https://github.com/bntlyr/Road-Defect-Indexing-System",
         liveDemoLink: "",
         gallery: [
             "/images/rdis.png",
-            "/images/kape.png",
-            "/images/forum.png"
+            "/images/rdis1.png",
+            "/images/rdis2.png"
         ],
-        reviews: [
-            {
-                userAvatar: "/images/image-hero.jpg",
-                userName: "Maria Santos",
-                userTitle: "Infrastructure Engineer",
-                userReview: "This system revolutionized our road maintenance process. The accuracy of defect detection is impressive!"
-            },
-            {
-                userAvatar: "/images/image-hero.jpg",
-                userName: "John Doe",
-                userTitle: "City Planner",
-                userReview: "A game-changer for urban infrastructure management. Highly recommended!"
-            }
-        ],
-        collaborators: [
-            {
-                avatar: "/images/image-hero.jpg",
-                name: "Bently Rafa",
-                title: "Lead Developer",
-                contribution: "Full-stack development and AI implementation"
-            },
-            {
-                avatar: "/images/image-hero.jpg",
-                name: "Team Member",
-                title: "AI Specialist",
-                contribution: "Machine learning model optimization"
-            }
-        ]
     },
     {
         id: "project-2",
@@ -49,29 +21,11 @@ export const Projects = [
         description: "Kape ni Rab! was the champion website developed in just two days during the Codetober: Web Development Competition hosted by the FEU Tech Alliance of Information Technology Students in October 2024.",
         tags: ["JavaScript", "TypeScript", "HTML", "Tailwind CSS", "Next.js"],
         longDescription: "Champion website developed in just two days during the Codetober competition. Features modern design, responsive layout, and optimized performance built with Next.js and Tailwind CSS.",
-        githubLink: "https://github.com/example/kape-ni-rab",
-        liveDemoLink: "https://kape-ni-rab.vercel.app",
+        githubLink: "https://github.com/alpharomercoma/kape",
+        liveDemoLink: "",
         gallery: [
             "/images/kape.png",
-            "/images/puto.png",
-            "/images/mochi.png"
         ],
-        reviews: [
-            {
-                userAvatar: "/images/image-hero.jpg",
-                userName: "Competition Judge",
-                userTitle: "Senior Developer",
-                userReview: "Outstanding work completed in such a short timeframe. The attention to detail is remarkable!"
-            }
-        ],
-        collaborators: [
-            {
-                avatar: "/images/image-hero.jpg",
-                name: "Bently Rafa",
-                title: "Full-Stack Developer",
-                contribution: "Complete website development and design"
-            }
-        ]
     },
     {
         id: "project-3",
@@ -80,12 +34,12 @@ export const Projects = [
         description: "Browser extension for calculating and tracking academic grades for FEU students using the SOLAR portal.",
         tags: ["JavaScript", "CSS", "HTML", "Chrome Extension API"],
         longDescription: "A powerful browser extension designed specifically for FEU Tech students to calculate and track their academic grades seamlessly through the SOLAR portal. Features automatic grade computation and progress tracking.",
-        githubLink: "https://github.com/example/gradecal",
-        liveDemoLink: "",
+        githubLink: "",
+        liveDemoLink: "https://chromewebstore.google.com/detail/gradecal/gaemamkhhodofhfhmicimlefchefgmeo",
         gallery: [
             "/images/Gradecal.png",
-            "/images/Gradecal.png",
-            "/images/Gradecal.png"
+            "/images/Gradecal1.png",
+            "/images/Gradecal2.png"
         ],
         reviews: [
             {
@@ -111,12 +65,10 @@ export const Projects = [
         description: "Interactive forum web application for community discussions and engagement.",
         tags: ["JavaScript", "TypeScript", "Next.JS", "PostgreSQL", "Tailwind CSS", "Prisma ORM"],
         longDescription: "A modern forum application built with Next.js and PostgreSQL, featuring real-time discussions, user authentication, and community engagement tools. Designed for seamless user interaction and content management.",
-        githubLink: "https://github.com/example/acmx-forum",
-        liveDemoLink: "https://acmx-forum.vercel.app",
+        githubLink: "https://github.com/bntlyr/acmx",
+        liveDemoLink: "",
         gallery: [
             "/images/forum.png",
-            "/images/forum.png",
-            "/images/forum.png"
         ],
         reviews: [
             {
@@ -141,30 +93,12 @@ export const Projects = [
         title: "Puto-Order System",
         description: "Simple Puto-Order System for managing orders of small family business.",
         tags: ["JavaScript", "TypeScript", "Next.JS", "indexedDB", "HTML", "Tailwind CSS"],
-        longDescription: "A comprehensive order management system designed for small family businesses. Features inventory tracking, order processing, and customer management with offline capabilities using IndexedDB.",
-        githubLink: "https://github.com/example/puto-order",
-        liveDemoLink: "https://puto-order.vercel.app",
+        longDescription: "A comprehensive order management system designed for small family businesses. Features inventory tracking, order processing, and customer management with offline capabilities using IndexedDB. (Live Demo is not the final product to protect privacy, but only an demo)",
+        githubLink: "",
+        liveDemoLink: "https://puto-order-system.vercel.app/",
         gallery: [
             "/images/puto.png",
-            "/images/puto.png",
-            "/images/puto.png"
         ],
-        reviews: [
-            {
-                userAvatar: "/images/image-hero.jpg",
-                userName: "Business Owner",
-                userTitle: "Small Business Owner",
-                userReview: "Perfect solution for our family business. Easy to use and very efficient!"
-            }
-        ],
-        collaborators: [
-            {
-                avatar: "/images/image-hero.jpg",
-                name: "Bently Rafa",
-                title: "Full-Stack Developer",
-                contribution: "Complete system development and business logic"
-            }
-        ]
     },
     {
         id: "project-6",
@@ -177,25 +111,7 @@ export const Projects = [
         liveDemoLink: "https://laeea.vercel.app",
         gallery: [
             "/images/zof.png",
-            "/images/zof.png",
-            "/images/zof.png"
         ],
-        reviews: [
-            {
-                userAvatar: "/images/image-hero.jpg",
-                userName: "Teacher",
-                userTitle: "Education Professional",
-                userReview: "The AI features are incredibly helpful for creating personalized learning experiences!"
-            }
-        ],
-        collaborators: [
-            {
-                avatar: "/images/image-hero.jpg",
-                name: "Bently Rafa",
-                title: "AI Developer",
-                contribution: "AI integration and frontend development"
-            }
-        ]
     },
     {
         id: "project-7",
@@ -204,29 +120,11 @@ export const Projects = [
         description: "Interactive game with engaging gameplay mechanics and immersive user experience.",
         tags: ["C#", "Unity", "Game Development"],
         longDescription: "An immersive interactive game built with Unity and C#, featuring engaging gameplay mechanics, stunning visuals, and intuitive controls. Designed to provide players with an unforgettable gaming experience.",
-        githubLink: "https://github.com/example/deceit",
+        githubLink: "https://github.com/bntlyr/Deceit-2D-RPG-Adventure",
         liveDemoLink: "",
         gallery: [
             "/images/deceit.jpg",
-            "/images/deceit.jpg",
-            "/images/deceit.jpg"
         ],
-        reviews: [
-            {
-                userAvatar: "/images/image-hero.jpg",
-                userName: "Gamer",
-                userTitle: "Game Tester",
-                userReview: "Fantastic gameplay and smooth mechanics. Really enjoyed the experience!"
-            }
-        ],
-        collaborators: [
-            {
-                avatar: "/images/image-hero.jpg",
-                name: "Bently Rafa",
-                title: "Game Developer",
-                contribution: "Game mechanics and Unity development"
-            }
-        ]
     },
     {
         id: "project-8",
@@ -235,29 +133,11 @@ export const Projects = [
         description: "Fun and interactive guessing game with multiple difficulty levels and scoring system.",
         tags: ["JAVA"],
         longDescription: "A fun and challenging guessing game built with Java, featuring multiple difficulty levels, scoring system, and engaging gameplay mechanics. Perfect for users looking for an entertaining and educational experience.",
-        githubLink: "https://github.com/example/codle",
+        githubLink: "https://github.com/bntlyr/GUESSING-GAME",
         liveDemoLink: "",
         gallery: [
             "/images/codle.png",
-            "/images/codle.png",
-            "/images/codle.png"
         ],
-        reviews: [
-            {
-                userAvatar: "/images/image-hero.jpg",
-                userName: "Game Player",
-                userTitle: "Student",
-                userReview: "Addictive and fun! The difficulty progression keeps me engaged."
-            }
-        ],
-        collaborators: [
-            {
-                avatar: "/images/image-hero.jpg",
-                name: "Bently Rafa",
-                title: "Java Developer",
-                contribution: "Game logic and user interface development"
-            }
-        ]
     },
     {
         id: "project-9",
@@ -266,29 +146,11 @@ export const Projects = [
         description: "Collaborative dashboard web application for project management and team coordination.",
         tags: ["TypeScript","React", "Node.js", "Next.JS", "PostGreSQL", "Tailwind CSS"],
         longDescription: "A comprehensive collaborative dashboard designed for modern project management and team coordination. Features real-time updates, task tracking, and seamless team communication tools.",
-        githubLink: "https://github.com/example/mochiboard",
+        githubLink: "https://github.com/bntlyr/mochiboard",
         liveDemoLink: "https://mochiboard.vercel.app",
         gallery: [
             "/images/mochi.png",
-            "/images/mochi.png",
-            "/images/mochi.png"
         ],
-        reviews: [
-            {
-                userAvatar: "/images/image-hero.jpg",
-                userName: "Project Manager",
-                userTitle: "Team Lead",
-                userReview: "Excellent tool for team coordination. The interface is intuitive and feature-rich!"
-            }
-        ],
-        collaborators: [
-            {
-                avatar: "/images/image-hero.jpg",
-                name: "Bently Rafa",
-                title: "Full-Stack Developer",
-                contribution: "Complete application development and database design"
-            }
-        ]
     },
     {
         id: "project-10",
@@ -297,29 +159,38 @@ export const Projects = [
         description: "Browser extension and web application for tracking manga reading progress and managing collections.",
         tags: ["TypeScript","JavaScript", "Chrome Extension API", "React", "PostGreSQL", "Google Cloud"],
         longDescription: "A comprehensive manga tracking solution combining a browser extension and web application. Track reading progress, manage collections, and discover new series with advanced search and recommendation features.",
-        githubLink: "https://github.com/example/thelib",
+        githubLink: "https://github.com/bntlyr/thelib",
         liveDemoLink: "https://thelib.vercel.app",
         gallery: [
             "/images/thelib.png",
-            "/images/thelib.png",
-            "/images/thelib.png"
         ],
-        reviews: [
-            {
-                userAvatar: "/images/image-hero.jpg",
-                userName: "Manga Reader",
-                userTitle: "Anime Enthusiast",
-                userReview: "Perfect for manga lovers! Keeps track of everything seamlessly."
-            }
+    },
+    {
+        id: "project-11",
+        image: "/images/solarpal.png",
+        title: "SolarPal - Solar Potential Map",
+        description: "A web application to help Filipinos find optimal solar panel locations using NASA POWER solar irradiance data.",
+        tags: ["TypeScript","JavaScript", "FastAPI", "React", "PostGreSQL", "Python", "Nasa Power API"],
+        longDescription: "Project SolarPal is an interactive web platform that helps Filipinos identify the best locations for solar panel installation using NASA’s solar irradiance data. Developed by Team Solourn, it visualizes sunlight exposure across the Philippines through an intuitive, map-based interface that allows users to explore, search, or analyze specific coordinates for solar potential. ",
+        githubLink: "https://github.com/bntlyr/SolarPal",
+        liveDemoLink: "https://solarpal-delta.vercel.app/",
+        gallery: [
+            "/images/solarpal.png",
+            "/images/solarpal1.png"
         ],
-        collaborators: [
-            {
-                avatar: "/images/image-hero.jpg",
-                name: "Bently Rafa",
-                title: "Full-Stack Developer",
-                contribution: "Extension development and web application"
-            }
-        ]
+    },
+    {
+        id: "project-12",
+        image: "/images/manhwaseen.jpg",
+        title: "ManhwaSeen - Forum App",
+        description: "ManhwaSeen is an online community platform for manhwa lovers to discover new titles, share reviews, and connect with fellow readers.",
+        tags: ["TypeScript","JavaScript", "Chrome Extension API", "React", "PostGreSQL", "Google Cloud"],
+        longDescription: "ManhwaSeen is an online community platform for manhwa lovers to discover new titles, share reviews, and connect with fellow readers. It features a dedicated forum for discussions, recommendations, and social interaction, as well as a personalized library for tracking and storing manhwas you’ve read. Designed to be a one-stop hub for both casual readers and passionate fans, ManhwaSeen helps users find their next great read while fostering a vibrant, engaged community.",
+        githubLink: "https://github.com/bntlyr/manhwaseen",
+        liveDemoLink: "https://manhwaseen.vercel.app/",
+        gallery: [
+            "/images/manhwaseen.jpg",
+        ],
     }
 ]
 
@@ -333,8 +204,10 @@ export const Skills = {
         { name: "PHP", level: 45 },
         { name: "HTML/CSS", level: 90 },
         { name: "SQL", level: 45 },
+        { name: "Flutter", level: 35 },
+        { name: "Kotlin", level: 65 },
     ],
-    frameworks: ["React", "Next.JS", "Flask", "DJango", "PyQT", ".NET"],
-    tools: ["Git", "VS Code", "Figma", "Docker", "AWS", "Azure", "Rest APIs", "FastAPI"],
-    databases: ["PostgreSQL", "MySQL", "Firebase"]
+    frameworks: ["React", "Next.JS", "Flask", "DJango", "PyQT", ".NET", "Angular"],
+    tools: ["Git", "VS Code", "Figma", "Docker", "AWS", "Azure", "Rest APIs", "FastAPI","GraphQL", "Googe Cloud Platform"],
+    databases: ["PostgreSQL", "MySQL", "Firebase", "Suupabase", "Neon", "Prisma ORM"]
 }

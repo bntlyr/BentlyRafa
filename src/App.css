@@ -158,8 +158,8 @@ section {
 }
 
 .hero-photo {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 600px;
   object-fit: cover;
   border: 4px solid #2d3748;
   border-radius: 12px;

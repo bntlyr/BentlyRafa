@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
 import ProjectHeader from "../components/project-header";
-import UserReview from "../components/project-components/user-review-card";
-import Collaborator from "../components/project-components/collaborator-card";
 import { Projects } from "../data";
 import "./projects.css";
 
@@ -85,10 +83,6 @@ export default function Project() {
         );
     }
 
-    const displayedCollaborators = showAllCollaborators 
-        ? currentProject.collaborators 
-        : currentProject.collaborators.slice(0, 4);
-
     return (
         <>  
             <ProjectHeader/>
@@ -142,49 +136,6 @@ export default function Project() {
                 </div>
             </section>
             
-            {/* Project User Reviews & Ratings or Remarks */} 
-            <section className="project-reviews">
-                <div className="container">
-                    <h2 className="section-title">USER REVIEWS</h2>
-                    <div className="reviews-grid">
-                        {currentProject.reviews.slice(0, 3).map((review: any, index: number) => (
-                            <UserReview
-                                key={index}
-                                userAvatar={review.userAvatar}
-                                userName={review.userName}
-                                userTitle={review.userTitle}
-                                userReview={review.userReview}
-                            />
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* Collaborators List */}
-            <section className="project-collaborators">
-                <div className="container">
-                    <h2 className="section-title">COLLABORATORS</h2>
-                    <div className="collaborators-grid">
-                        {displayedCollaborators.map((collaborator: any, index: number) => (
-                            <Collaborator
-                                key={index}
-                                avatar={collaborator.avatar}
-                                name={collaborator.name}
-                                title={collaborator.title}
-                                contribution={collaborator.contribution}
-                            />
-                        ))}
-                    </div>
-                    {currentProject.collaborators.length > 4 && (
-                        <button 
-                            className="btn btn-outline view-more-btn"
-                            onClick={() => setShowAllCollaborators(!showAllCollaborators)}
-                        >
-                            {showAllCollaborators ? 'View Less' : 'View More'}
-                        </button>
-                    )}
-                </div>
-            </section>
 
             {/* Image Modal */}
             {isModalOpen && currentProject && (
