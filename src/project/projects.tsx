@@ -6,7 +6,6 @@ import "./projects.css";
 export default function Project() {
     const [currentProject, setCurrentProject] = useState<any>(null);
     const [selectedImage, setSelectedImage] = useState<string>('');
-    const [showAllCollaborators, setShowAllCollaborators] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
