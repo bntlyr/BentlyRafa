@@ -170,7 +170,7 @@ export const Projects = [
         image: "/images/solarpal.png",
         title: "SolarPal - Solar Potential Map",
         description: "A web application to help Filipinos find optimal solar panel locations using NASA POWER solar irradiance data.",
-        tags: ["TypeScript","JavaScript", "FastAPI", "React", "PostGreSQL", "Python", "Nasa Power API"],
+        tags: ["TypeScript","JavaScript", "FastAPI", "React", "Next.js","PostGreSQL", "Python", "Nasa Power API"],
         longDescription: "Project SolarPal is an interactive web platform that helps Filipinos identify the best locations for solar panel installation using NASA’s solar irradiance data. Developed by Team Solourn, it visualizes sunlight exposure across the Philippines through an intuitive, map-based interface that allows users to explore, search, or analyze specific coordinates for solar potential. ",
         githubLink: "https://github.com/bntlyr/SolarPal",
         liveDemoLink: "https://solarpal-delta.vercel.app/",
@@ -184,7 +184,7 @@ export const Projects = [
         image: "/images/manhwaseen.jpg",
         title: "ManhwaSeen - Forum App",
         description: "ManhwaSeen is an online community platform for manhwa lovers to discover new titles, share reviews, and connect with fellow readers.",
-        tags: ["TypeScript","JavaScript", "Chrome Extension API", "React", "PostGreSQL", "Google Cloud"],
+        tags: ["TypeScript","JavaScript", "Supabase", "React", "PostGreSQL", "Next.JS"],
         longDescription: "ManhwaSeen is an online community platform for manhwa lovers to discover new titles, share reviews, and connect with fellow readers. It features a dedicated forum for discussions, recommendations, and social interaction, as well as a personalized library for tracking and storing manhwas you’ve read. Designed to be a one-stop hub for both casual readers and passionate fans, ManhwaSeen helps users find their next great read while fostering a vibrant, engaged community.",
         githubLink: "https://github.com/bntlyr/manhwaseen",
         liveDemoLink: "https://manhwaseen.vercel.app/",
@@ -209,5 +209,5 @@ export const Skills = {
     ],
     frameworks: ["React", "Next.JS", "Flask", "DJango", "PyQT", ".NET", "Angular"],
     tools: ["Git", "VS Code", "Figma", "Docker", "AWS", "Azure", "Rest APIs", "FastAPI","GraphQL", "Googe Cloud Platform"],
-    databases: ["PostgreSQL", "MySQL", "Firebase", "Suupabase", "Neon", "Prisma ORM"]
+    databases: ["PostgreSQL", "MySQL", "Firebase", "Supabase", "Neon", "Prisma ORM"]
 }
