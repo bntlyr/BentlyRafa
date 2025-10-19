@@ -3,6 +3,8 @@ import Header from "./components/header";
 import Project from "./components/project-card";
 import { Projects, Skills } from "./data";
 import { useEffect } from "react";
+// resume PDF import (Vite resolves asset imports to a URL)
+import resumePdf from "./assets/Bently-Rafa-Resume.pdf";
 
 export default function Home() {
   // Handle hash navigation on page load
@@ -64,7 +66,15 @@ export default function Home() {
               >
                 VIEW MY WORK
               </button>
-              <button className="btn btn-secondary">DOWNLOAD RESUME</button>
+              <a
+                href={resumePdf}
+                download="Bently-Rafa-Resume.pdf"
+                className="btn btn-secondary"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                 DOWNLOAD RESUME
+              </a>
             </div>
           </div>
           <div className="hero-image">
