@@ -197,13 +197,13 @@ export const Projects = [
 export const Skills = {
     languages: [
         { name: "C++", level: 60 },
-        { name: "Java", level: 70 },
+        { name: "Java", level: 75 },
         { name: "Python", level: 85 },
-        { name: "Javascript / Typescript", level: 73 },
+        { name: "Javascript / Typescript", level: 85 },
         { name: "C#", level: 20 },
         { name: "PHP", level: 45 },
         { name: "HTML/CSS", level: 90 },
-        { name: "SQL", level: 45 },
+        { name: "SQL", level: 85 },
         { name: "Flutter", level: 35 },
         { name: "Kotlin", level: 65 },
     ],
