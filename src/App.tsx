@@ -5,8 +5,10 @@ import { Projects, Skills } from "./data";
 import { useEffect } from "react";
 // resume PDF import (Vite resolves asset imports to a URL)
 import resumePdf from "./assets/Bently-Rafa-Resume.pdf";
+import { track } from "@vercel/analytics/react";
 
 export default function Home() {
+
   // Handle hash navigation on page load
   useEffect(() => {
     const handleHashNavigation = () => {
@@ -56,6 +58,7 @@ export default function Home() {
                 className="btn btn-primary"
                 onClick={() => {
                   const element = document.getElementById('projects');
+                  track('ProjectsViewed')
                   if (element) {
                     element.scrollIntoView({
                       behavior: 'smooth',
@@ -72,6 +75,7 @@ export default function Home() {
                 className="btn btn-secondary"
                 rel="noopener noreferrer"
                 target="_blank"
+                onClick={() => {track('ResumeClick')}}
               >
                  DOWNLOAD RESUME
               </a>
